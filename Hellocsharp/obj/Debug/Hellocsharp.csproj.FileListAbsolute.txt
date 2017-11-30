@@ -1,0 +1,7 @@
+D:\Users\jimmy\Desktop\Hellocsharp\Hellocsharp\bin\Debug\Hellocsharp.exe.config
+D:\Users\jimmy\Desktop\Hellocsharp\Hellocsharp\bin\Debug\Hellocsharp.exe
+D:\Users\jimmy\Desktop\Hellocsharp\Hellocsharp\bin\Debug\Hellocsharp.pdb
+D:\Users\jimmy\Desktop\Hellocsharp\Hellocsharp\obj\Debug\Hellocsharp.csprojResolveAssemblyReference.cache
+D:\Users\jimmy\Desktop\Hellocsharp\Hellocsharp\obj\Debug\Hellocsharp.csproj.CoreCompileInputs.cache
+D:\Users\jimmy\Desktop\Hellocsharp\Hellocsharp\obj\Debug\Hellocsharp.exe
+D:\Users\jimmy\Desktop\Hellocsharp\Hellocsharp\obj\Debug\Hellocsharp.pdb
