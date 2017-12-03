@@ -28,13 +28,49 @@ namespace Hellocsharp
             Console.WriteLine("{0} {1}",float.MinValue,float.MaxValue);
 
             const float Pi = 3.14f;
-            
-
-
-
-
 
             //ctrl + X  可以刪除該行
+
+            ///Demo:type Conversion
+            byte b = 1;
+            int i = b;
+            Console.WriteLine(i);
+
+            int c = 1;   //max 255
+            byte d = (byte)c;
+            Console.WriteLine(d);
+
+
+            var numbers = "1234";
+            int e = Convert.ToInt32(numbers);
+            Console.WriteLine(e);
+
+
+
+            try
+            {
+                var abc = "1234";
+                int abcd = Convert.ToByte(abc);
+                Console.WriteLine(abcd);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("The number could not be converted to a byte");
+            }
+
+
+
+            try
+            {
+                string str = "true";
+                bool m = Convert.ToBoolean(str);
+                Console.WriteLine(m);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("The string could not be converted to boolean");
+            }
+            //參考資料 GOOGLE:C#build-in types
         }
     }
 }
