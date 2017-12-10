@@ -43,7 +43,9 @@ namespace ch4
 Look into the following paths
 c:\folder1\folders2
 c:\QQ\QQ";
+            var aloha = @"Jimmy is so handsome";
             Console.WriteLine(text);
+            Console.WriteLine(aloha);
         }
     }
 }
