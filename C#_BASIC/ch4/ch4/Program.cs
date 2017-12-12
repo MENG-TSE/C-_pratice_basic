@@ -8,11 +8,6 @@ using System.Threading.Tasks;
 
 namespace ch4
 {
-    // 37:demo:Reference Types and Value Types
-    public class dog
-    {
-        public int Age;
-    }
     //
     class Program
     {
@@ -73,7 +68,7 @@ c:\QQ\QQ";
             Console.WriteLine(num);
 
 
-            var app = new dog() { Age = 20 };
+            var app = new Dog() { Age = 20 };
             MakeOld(app);
             Console.WriteLine(app.Age);
                
@@ -85,7 +80,7 @@ c:\QQ\QQ";
         {
             number += 10;
         }
-        public static void MakeOld(dog dog)
+        public static void MakeOld(Dog dog)
         {
             dog.Age += 10;
         }
