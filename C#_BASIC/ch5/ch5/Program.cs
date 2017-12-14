@@ -24,9 +24,10 @@ namespace ch5
 
             Console.WriteLine(price);
 
+
             var season = Season.Autumn;
-          //switch
-            switch(season)
+            //switch
+            switch (season)
             {
                 case Season.Autumn:
                     Console.WriteLine("It's QQ");
@@ -40,17 +41,28 @@ namespace ch5
                     break;
             }
 
-            for(var i = 1; i <= 10; i++)
+
+            for (var i = 1; i <= 10; i++)
             {
-                if(i % 2 == 0)
+                if (i % 2 == 0)
                 {
                     Console.WriteLine(i);
                 }
 
             }
-            for(var i=10; i > 0; i--)
+            //var i = 1;
+            //while (i < 10)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //    i++;
+            //}
+
+            for (var i = 10; i > 0; i--)
             {
-                if(i % 2 ==0)
+                if (i % 2 == 0)
                 {
                     Console.WriteLine(i);
                 }
@@ -63,18 +75,44 @@ namespace ch5
             //{
             //    Console.WriteLine(name[i]);
             //}
-            foreach(var character in name)
+            foreach (var character in name)
             {
                 Console.WriteLine(character);
             }
             //ex2(array)
             var array = new int[] { 1, 2, 3 };
-            foreach(var QQ in array)
+            foreach (var QQ in array)
             {
                 Console.WriteLine(QQ);
             }
 
 
+            while (true)
+            {
+                Console.Write("Enter your name : ");
+                var input = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    break;
+                }
+                {
+                    Console.WriteLine(" @Echo " + input);
+                }
+                //while (true)
+                //{
+                //    Console.Write("Enter your name");
+                //    var input = Console.ReadLine();
+                //    if (!string.IsNullOrWhiteSpace(input))
+                //    {
+                //        Console.WriteLine(" @Echo " + input);
+                //        continue;
+                //        //continue是continue while(true)
+                //    }
+
+                //}
+
+
+            }
         }
     }
 }
