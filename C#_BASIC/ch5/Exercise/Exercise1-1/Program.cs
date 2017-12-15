@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _42_Exercise1
+namespace Exercise1_1
 {
     class Program
     {
