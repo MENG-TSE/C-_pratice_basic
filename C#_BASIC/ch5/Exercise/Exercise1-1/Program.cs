@@ -23,7 +23,5 @@ namespace Exercise1_1
             else
                 Console.WriteLine("Invalid");
         }
-
-
     }
 }
