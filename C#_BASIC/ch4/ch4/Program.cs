@@ -23,7 +23,7 @@ namespace ch4
             Console.WriteLine(result);
 
             ///30 demo:Arrays
-            var number =new int[3];
+            var number = new int[3];
             number[0] = 1;
 
             Console.WriteLine(number[0]);
@@ -54,15 +54,15 @@ c:\QQ\QQ";
             var a = 1;
             var b = 2;
             b++;
-            Console.WriteLine(string.Format("a:{0},b:{1}",a,b));
+            Console.WriteLine(string.Format("a:{0},b:{1}", a, b));
 
             var array1 = new int[3] { 1, 2, 3 };
             var array2 = array1;
             array2[0] = 0;
-            Console.WriteLine(string.Format("array1[1]:{0}=array2[1]:{0}",array1[0],array2[0]));
+            Console.WriteLine(string.Format("array1[1]:{0}=array2[1]:{0}", array1[0], array2[0]));
 
             //37 demo:reference types and values types
-            
+
             var num = 1;
             Increment(num);
             Console.WriteLine(num);
@@ -71,9 +71,9 @@ c:\QQ\QQ";
             var app = new Dog() { Age = 20 };
             MakeOld(app);
             Console.WriteLine(app.Age);
-               
-            
-            
+
+
+
         }
         //下兩個都為37 demo:reference types and values types
         public static void Increment(int number)
