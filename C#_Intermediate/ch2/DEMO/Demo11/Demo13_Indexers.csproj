@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9C194DF3-C727-43B0-AF9E-A9A66C76E9E2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Demo11</RootNamespace>
-    <AssemblyName>Demo11</AssemblyName>
+    <RootNamespace>Demo13</RootNamespace>
+    <AssemblyName>Demo13</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HttpCookie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

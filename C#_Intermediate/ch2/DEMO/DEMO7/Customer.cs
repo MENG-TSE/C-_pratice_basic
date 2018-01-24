@@ -6,7 +6,7 @@ namespace DEMO7
     {
         public int Id;
         public string Name;
-        public List<Order> Orders;
+        public List<Order>  Orders;
 
         public Customer()
         {
